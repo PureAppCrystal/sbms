@@ -6,14 +6,14 @@ body			{ font:0.75em "맑은 고딕", 돋움, 굴림; text-align:center }
 ul, ol			{ list-style-type: none }
 
 /* layout */
-div#container	{ text-align:left;  margin:0 auto; background-color:#EEE }
-div#content		{ float:right; width:580px; background-color:#fff }
+div#container	{ text-align:left; width:1200px; margin:0 auto; background-color:#eee }
+div#content		{ float:left; width:1077px; margin-left:3px; background-color:#eee }
 div#navigation	{ float:left; width:120px;  }
 div#footer		{ clear:both; width:100% }
 
 /* header */
-div#header					{ height:200px; background-color:#ffffff }
-div#header	h1				{ height:70px; line-height:70px; margin:0px; padding-left:30px; padding-top:50px; color:#0080ff; font-size:50px; }
+div#header					{ height:130px; background-color:#88c8f7 }
+div#header	h1				{ height:50px; line-height:70px; margin:0px; padding-left:30px; padding-top:30px; color:#0080ff; font-size:50px; }
 div#header	h1 a			{ color:#79B30B; text-decoration:none; }
 div#header	h1 a:link		{ color:#79B30B; text-decoration:none; }
 div#header	h1 a:hover		{ color:#79B30B; text-decoration:none; }
@@ -26,8 +26,8 @@ div#header	li a 			{ color:#4F4F4F; font-weight:bold; margin-left:10px; text-dec
 
 
 /* navigation */
-div#navigation ul			{ width:118px; margin-top:1px }
-div#navigation li			{ width:118px; background-color:#E9E9E9; border:1px solid #DADADA; margin-top:-1px }
+div#navigation ul			{ width:120px; margin-top:1px }
+div#navigation li			{ width:120px; background-color:#E9E9E9; border:1px solid #DADADA; margin-top:-1px }
 div#navigation li a			{ display:block; color:#4F4F4F; width:98px; font-weight:bold; padding:5px 10px; font-size:1.1em }
 div#navigation li.selected	{ background:#E0E0E0 }
 div#navigation li a:link	{ color:#4F4F4F; text-decoration:none; }
