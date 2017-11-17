@@ -18,7 +18,7 @@
 		<c:import url="/WEB-INF/views/includes/header.jsp"/>
 		
 		<c:import url="/WEB-INF/views/includes/navigation.jsp">
-			<c:param name="menu" value="main" />
+			<c:param name="menu" value="bus-info" />
 		</c:import>
 		
 		<div id="main-content" style="height:700px;">

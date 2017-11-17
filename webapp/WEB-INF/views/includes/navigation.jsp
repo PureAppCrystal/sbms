@@ -12,42 +12,42 @@
 					<li><a href="${pageContext.request.contextPath }/realtime">실시간 정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/passenger">탑승정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/bus-info">버스 정보</a></li>
-					<li><a href="${pageContext.request.contextPath }/driver">기사 정보</a></li>
+					<li><a href="${pageContext.request.contextPath }/driver-info">기사 정보</a></li>
 				</c:when>
 				<c:when test="${param.menu == 'realtime' }">
 					<li><a href="${pageContext.request.contextPath }">메인</a></li>
 					<li class="selected"><a href="${pageContext.request.contextPath }/realtime">실시간 정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/passenger">탑승정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/bus-info">버스 정보</a></li>
-					<li><a href="${pageContext.request.contextPath }/driver">기사 정보</a></li>
+					<li><a href="${pageContext.request.contextPath }/driver-info">기사 정보</a></li>
 				</c:when>
 				<c:when test="${param.menu == 'passenger' }">
 					<li><a href="${pageContext.request.contextPath }">메인</a></li>
 					<li><a href="${pageContext.request.contextPath }/realtime">실시간 정보</a></li>
 					<li class="selected"><a href="${pageContext.request.contextPath }/passenger">탑승정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/bus-info">버스 정보</a></li>
-					<li><a href="${pageContext.request.contextPath }/driver">기사 정보</a></li>
+					<li><a href="${pageContext.request.contextPath }/driver-info">기사 정보</a></li>
 				</c:when>
 				<c:when test="${param.menu == 'bus-info' }">
 					<li><a href="${pageContext.request.contextPath }">메인</a></li>
 					<li><a href="${pageContext.request.contextPath }/realtime">실시간 정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/passenger">탑승정보</a></li>
 					<li class="selected"><a href="${pageContext.request.contextPath }/bus-info">버스 정보</a></li>
-					<li><a href="${pageContext.request.contextPath }/driver">기사 정보</a></li>
+					<li><a href="${pageContext.request.contextPath }/driver-info">기사 정보</a></li>
 				</c:when>					
 				<c:when test="${param.menu == 'driver-info' }">
 					<li><a href="${pageContext.request.contextPath }">메인</a></li>
 					<li><a href="${pageContext.request.contextPath }/realtime">실시간 정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/passenger">탑승정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/bus-info">버스 정보</a></li>
-					<li class="selected"><a href="${pageContext.request.contextPath }/driver">기사 정보</a></li>
+					<li class="selected"><a href="${pageContext.request.contextPath }/driver-info">기사 정보</a></li>
 				</c:when>					
 				<c:otherwise>
 					<li class="selected"><a href="${pageContext.request.contextPath }">메인</a></li>
 					<li><a href="${pageContext.request.contextPath }/realtime">실시간 정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/passenger">탑승정보</a></li>
 					<li><a href="${pageContext.request.contextPath }/bus-info">버스 정보</a></li>
-					<li><a href="${pageContext.request.contextPath }/driver">기사 정보</a></li>
+					<li><a href="${pageContext.request.contextPath }/driver-info">기사 정보</a></li>
 				</c:otherwise>					
 			</c:choose>
 		</ul>

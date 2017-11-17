@@ -18,7 +18,7 @@
 		<c:import url="/WEB-INF/views/includes/header.jsp"/>
 		
 		<c:import url="/WEB-INF/views/includes/navigation.jsp">
-			<c:param name="menu" value="driver" />
+			<c:param name="menu" value="driver-info" />
 		</c:import>
 		
 		<div id="main-content" style="height:700px;">
