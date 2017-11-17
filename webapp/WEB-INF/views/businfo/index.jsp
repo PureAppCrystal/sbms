@@ -22,7 +22,7 @@
 		</c:import>
 		
 		<div id="main-content" style="height:700px;">
-			main
+			bus-info
 		</div>
 		
 		<c:import url="/WEB-INF/views/includes/footer.jsp" />
