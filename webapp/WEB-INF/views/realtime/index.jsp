@@ -27,7 +27,7 @@
 				<div id="realtime" >
 					
 					<!-- 지도영역 -->
-					<div id="real-map" style="background-color: #399cff">
+					<div id="real-map" style="background-color: #FDDD00">
 						<!-- 검색버튼 영역  -->
 						<p style="float: left; font-size:15px; font-weight: bold; padding: 20px; display: inline-block; overflow: hidden;">지도</p> 
 						<input id="area-name" name='area-name' type="text" value="" style=" margin: 20px; float: left;">
@@ -59,7 +59,7 @@
 					
 					<!-- 버스 상태정보  -->
 					<br>				
-					<div id="bus-status" style="height: 140px; width: 1035px; background-color: #399cff">
+					<div id="bus-status" style="height: 140px; width: 1035px; background-color: #FDDD00">
 						<!-- 버스상태 -->
 						<p style="width:1000px; float: left; font-size:30px; font-weight: bold; padding-top: 10px; padding-left: 10px; display: inline-block; overflow: hidden;">버스상태</p>
 						<br>
@@ -105,7 +105,10 @@
 					</div>
 
 					
+					<br>
+					<br>
 					<div id="alarm-log">
+						<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/realtime-opinion.png">
 					</div>
 
 					

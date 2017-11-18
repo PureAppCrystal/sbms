@@ -2,8 +2,8 @@
 @import "mysite.css";
 
 
-#realtime		{ padding:20px;	width:1036px; height:900px; background-color:#ffffff;}
-#realtimeTest		{ padding:20px;	width:1036px; height:900px; background-color:#399cff;}
+#realtime		{ padding:20px;	width:1036px; height:1100px; background-color:#ffffff;}
+#realtimeTest		{ padding:20px;	width:1036px; height:900px; background-color:#d8d8d8;}
 
 
 #color-type {
