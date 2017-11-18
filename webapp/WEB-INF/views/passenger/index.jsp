@@ -8,7 +8,7 @@
 <head>
 <title>SBMS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="${pageContext.servletContext.contextPath }/assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="${pageContext.servletContext.contextPath }/assets/css/passenger.css" rel="stylesheet" type="text/css">
 </head>
 
 
@@ -21,8 +21,28 @@
 			<c:param name="menu" value="passenger" />
 		</c:import>
 		
-		<div id="main-content" style="height:700px;">
-			passenger
+		<div id="wrapper">
+			<div id="content">
+				<div id="passenger" >
+					<!--  현재정보 -->
+					<div id="now-info">
+						<img id="passenger-time" style="width: 1031px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/passenger-time.png">
+					</div>
+					
+					<br>
+					<!--  요약 -->
+					<div id="now-info">
+						<img id="passenger-time" style="width: 1031px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-summary.png">
+					</div>
+					
+					
+					<br>
+					<!--  예측정보 -->
+					<div id="expect-info">
+						<img id="passenger-time" style="width: 1031px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/passenger-expect.png">
+					</div>
+				</div>
+			</div>
 		</div>
 		
 		<c:import url="/WEB-INF/views/includes/footer.jsp" />
