@@ -32,14 +32,14 @@
 					
 					<!-- 기사 정보  -->
 					<br>
-					<div id="driver_list">
-						<img id="driver_list" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/driver_list.png">
+					<div id="driver_info">
+						<img id="driver_info" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/driver_info.png">
 					</div>
 					
 					<!-- 기사 습관  -->
 					<br>
-					<div id="driver-opinion">
-						<img id="driver-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/driver_list.png">
+					<div id="driver_analysis">
+						<img id="driver_analysis" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/driver_analysis.png">
 					</div>
 					
 					<!-- 기사 의견목록  -->
