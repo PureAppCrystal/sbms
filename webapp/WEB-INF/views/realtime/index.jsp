@@ -29,9 +29,9 @@
 					<!-- 지도영역 -->
 					<div id="real-map" style="background-color: #FDDD00">
 						<!-- 검색버튼 영역  -->
-						<p style="float: left; font-size:15px; font-weight: bold; padding: 20px; display: inline-block; overflow: hidden;">지도</p> 
-						<input id="area-name" name='area-name' type="text" value="" style=" margin: 20px; float: left;">
-						<input type="submit" value="검색" style="width: 60px; float: left; margin: 20px">
+						<p style="float: left; font-size:30px; font-weight: bold; padding: 20px; display: inline-block; overflow: hidden;">지역</p> 
+						<input id="area-name" name='area-name' type="text" value="" style=" margin-top: 30px; float: left;">
+						<input type="submit" value="검색" style="width: 60px; float: left; margin-top: 30px; margin-left: 20px;">
 						
 						<!-- 색 설명  -->
 						<br>
@@ -63,7 +63,7 @@
 						<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-status.png">
 					</div>
 					
-
+					<!-- 실시간 고객의견 -->
 					<br>
 					<div id="alarm-log">
 						<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/realtime-opinion.png">
