@@ -65,7 +65,7 @@
 						<br>
 						<br>
 						<br>
-						<div style="margin: 3px; width:1029px; height: 85px; background-color: #ffffff">
+						<div style="margin: 3px; width:1029px; height: 75px; background-color: #ffffff">
 						
 							<div style="width:1000px;">
 								<!-- 온도 -->
@@ -98,14 +98,8 @@
 								<p style=" width: 150px; float: left; font-size:20px; padding-top: 10px; padding-left: 10px; display: inline-block; overflow: hidden;"> 닫힘</p>
 							</div>
 						</div>
-						
-						
-						
-												
 					</div>
 
-					
-					<br>
 					<br>
 					<div id="alarm-log">
 						<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/realtime-opinion.png">

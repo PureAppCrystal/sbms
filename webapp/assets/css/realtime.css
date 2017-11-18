@@ -7,7 +7,7 @@
 
 
 #color-type {
-	width: 270px;
+	width: 300px;
 	float: right;
 }
 
@@ -21,7 +21,7 @@
 	float: left;
 	width: 16px;
 	height: 16px;
-	background: #00ca00;
+	background: #46a3ff;
 	border-radius: 10px;
 }
 
@@ -30,7 +30,7 @@
 	float: left;
 	width: 16px;
 	height: 16px;
-	background: #f9dc13;
+	background: #00d900;
 	border-radius: 10px;
 }
 
