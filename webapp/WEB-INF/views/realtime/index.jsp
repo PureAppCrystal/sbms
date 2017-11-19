@@ -9,9 +9,39 @@
 <head>
 <title>SBMS</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link href="${pageContext.servletContext.contextPath }/assets/css/realtime.css" rel="stylesheet" type="text/css">	
+<link href="${pageContext.servletContext.contextPath }/assets/css/realtime.css" rel="stylesheet" type="text/css">
+<!-- jquery 임포트 -->
+<script type="text/javascript"
+	src="${pageContext.request.contextPath }/assets/js/jquery/jquery-1.9.0.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>	
 </head>
 
+<script>
+	$(function() {
+		$("#search").click(function(){
+			$("#real-map2").empty();
+			
+			var html = '<img id="map_gangnam_data" style="width: 1024px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/map_gangnam_data.jpg">'
+			
+			$( "#real-map2" ).append( html )
+			
+			
+			$("#map_gangnam_data").click(function() {
+				$("#bus-status").empty();
+				$("#realtime-opinion").empty();
+				
+				var html1 = '<img id="bus-status" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-status.png">'			
+				var html2 = '<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/realtime-opinion.png">'
+				$("#bus-status").append( html1 )
+				$("#realtime-opinion").append( html2 )
+			})
+		})
+		
+		
+		
+	})
+	
+</script>
 
 
 <body>
@@ -29,9 +59,9 @@
 					<!-- 지도영역 -->
 					<div id="real-map" style="background-color: #FDDD00">
 						<!-- 검색버튼 영역  -->
-						<p style="float: left; font-size:30px; font-weight: bold; padding: 20px; display: inline-block; overflow: hidden;">지역</p> 
+						<p style="float: left; font-size:30px; font-weight: bold; padding: 20px; display: inline-block; overflow: hidden;">버스</p> 
 						<input id="area-name" name='area-name' type="text" value="" style=" margin-top: 30px; float: left;">
-						<input type="submit" value="검색" style="width: 60px; float: left; margin-top: 30px; margin-left: 20px;">
+						<input id='search' type="submit" value="검색" style="width: 60px; float: left; margin-top: 30px; margin-left: 20px;">
 						
 						<!-- 색 설명  -->
 						<br>
@@ -52,21 +82,21 @@
 						<!-- 이미지 영역 -->
 						<br>
 						<br>
-						<div id="real-map">
+						<div id="real-map2">
 							<img id="map_gangnam" style="width: 1024px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/map_gangnam.jpg">
 						</div>
 					</div>
 					
 					<!-- 버스 상태정보  -->
 					<br>
-					<div id="alarm-log">
-						<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-status.png">
+					<div id="bus-status">
+						<!-- <img id="bus-status" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-status.png">  -->
 					</div>
 					
 					<!-- 실시간 고객의견 -->
 					<br>
-					<div id="alarm-log">
-						<img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/realtime-opinion.png">
+					<div id="realtime-opinion">
+						<!-- <img id="realtime-opinion" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/realtime-opinion.png"> -->
 					</div>
 
 					

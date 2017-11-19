@@ -26,8 +26,8 @@
 	<!-- oracle datasource -->
     <bean id="oracleDatasource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">
         <property name="URL" value="jdbc:oracle:thin:@192.168.1.100:1521:xe" />
-        <property name="user" value="soundplayer" />
-        <property name="password" value="soundplayer" />
+        <property name="user" value="sbms" />
+        <property name="password" value="sbms" />
         <property name="connectionCachingEnabled" value="true" />
         <qualifier value="main-db" />
     </bean>

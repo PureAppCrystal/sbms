@@ -3,16 +3,16 @@
 <configuration>
 	<typeAliases>
 	<!-- 
-		<typeAlias alias="songvo" type="com.bigdata2017.soundplayer.vo.SongVo"/>
-		<typeAlias alias="yearvo" type="com.bigdata2017.soundplayer.vo.YearVo"/>
+		<typeAlias alias="songvo" type="com.enter.sbms.vo.BusinfoVo"/>
+		<typeAlias alias="yearvo" type="com.enter.sbms.vo.RealtimeVo"/>
 	 -->		
     </typeAliases>	
 	
 	<mappers>
 	<!-- 
-		<mapper resource="mybatis/mappers/year.xml"/>
-		<mapper resource="mybatis/mappers/song_past.xml"/>
-		<mapper resource="mybatis/mappers/user.xml"/>
+		<mapper resource="mybatis/mappers/businfo.xml"/>
+		<mapper resource="mybatis/mappers/driverinfo.xml"/>
+		<mapper resource="mybatis/mappers/passenger.xml"/>
 	 -->
 	</mappers>
 	
