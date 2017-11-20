@@ -16,11 +16,11 @@
 
 
 <script>
-	var count = 0
+	var count
 	
 	$(function() {
 		$("#bus-search").click(function(){
-			
+			count = 0
 			
 			$("#bus-list").empty();
 			$("#bus-detail-red").empty();
@@ -32,19 +32,18 @@
 			var html = '<img id="bus-list" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-list.png">'
 			$( "#bus-list" ).append( html )
 			
-			
+			var click = count
 			$("#bus-list").click(function(){
-				count = count + 1
-				
+				click = click + 1
 				$("#bus-detail-red").empty();
 				$("#bus-testlog").empty();
 				$("#bus-log-search").empty();
 				$("#bus-log-data").empty();
 				
-				if (count == 1) {
+				if (click == 1) {
 					var html1 = '<img id="bus-detail-red" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-detail-red.png">'
 					$( "#bus-detail-red" ).append( html1 )
-				} else if (count == 2) {
+				} else if (click == 2) {
 					var html1 = '<img id="bus-detail-red" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-detail-yellow.png">'
 					$( "#bus-detail-red" ).append( html1 )
 				} else {
