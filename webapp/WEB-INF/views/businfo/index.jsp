@@ -59,7 +59,9 @@
 				var html3 = '<img id="bus-log-search" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-log-search.png">'
 				$( "#bus-log-search" ).append( html3 )
 				
+				
 				$("#bus-log-search").click(function(){
+					$("#bus-log-data").empty()
 					var html1 = '<img id="bus-log-data" style="width: 1030px; margin-left: 3px;" src="${pageContext.servletContext.contextPath }/assets/images/bus-log-data.png">'
 					$( "#bus-log-data" ).append( html1 )
 				})
